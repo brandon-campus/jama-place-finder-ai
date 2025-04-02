@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, MapPin } from "lucide-react";
@@ -16,7 +15,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link to="/chat">
-            <Button size="lg" className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-white">
+            <Button size="lg" className="w-full sm:w-auto bg-red-500 hover:bg-red-600 text-white">
               <MessageSquare className="mr-2 h-5 w-5" />
               Hablar con Jamito
             </Button>
