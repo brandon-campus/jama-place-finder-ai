@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, MapPin } from "lucide-react";
@@ -22,7 +23,7 @@ const Hero = () => {
           </Link>
           
           <Link to="/explore">
-            <Button size="lg" variant="outline" className="w-full sm:w-auto border-jama-teal text-jama-teal hover:bg-jama-teal/10">
+            <Button size="lg" variant="outline" className="w-full sm:w-auto border-black text-black hover:bg-black/10">
               <MapPin className="mr-2 h-5 w-5" />
               Explorar lugares
             </Button>
